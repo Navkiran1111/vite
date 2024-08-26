@@ -1,15 +1,15 @@
 nav{
   display:flex;
   gap: 34px;
-  background-color: black;
+  background-color:black;
   color: white;
 }
 nav>p{
   font-size:x-large;
-  color: orangered;
+  color:dimgrey;
   margin-top: 18px;
   margin-left: 15px;
-  font-style:italic
+  
   ;
 }
 
@@ -24,4 +24,8 @@ a li{
 *{
   padding: 0;
 margin: 0;
+}
+.rock{
+  font-family: 'Courier New', Courier, monospace;
+  margin: 20px;
 }
