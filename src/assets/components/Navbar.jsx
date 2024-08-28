@@ -7,10 +7,14 @@ const Navbar = () => {
   return (
     <div>
       <nav>
-        <p>BAJWA TECHNICAL</p>
+        
+        <p>WEB DESIGNING</p>
+
       <Link to="/"><li>Home</li></Link>
-      <Link to="/about"><li>About</li></Link>
+      <Link to="/Learning"><li>Learning</li></Link>
       <Link to="/contact"><li>Contact</li></Link>
+      <Link to="/Basic"><li>Basic</li></Link>
+      
       </nav>
     </div>
   )

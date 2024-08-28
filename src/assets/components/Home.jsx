@@ -3,6 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div className='rock'>
+      <img src='web.png'/>
       <br></br><h2>Web Application</h2><br></br>
       <br></br>A web application is software that runs in your web browser. Businesses
        have to exchange information and deliver services remotely. They use
@@ -12,7 +13,7 @@ const Home = () => {
           applications in their design. They allow you to access complex 
           functionality without installing or configuring software.
       <br></br><br></br>
-      <img src='1.jpg' />
+      <img src='web1.jpg' />
       <h2>What are the benefits of web applications?</h2><br></br>
       As detailed, the development process for web apps is relatively 
       simple and cost-effective for businesses. Small teams can achieve 
@@ -21,6 +22,7 @@ const Home = () => {
         the same version works across all modern browsers and devices,
          you won't have to create several different iterations for multiple
           platforms<br></br><br></br><br></br>
+          <img src= 'web3.jpg'/>
           <h2>What is the difference between a web application and a website?</h2>
       <br></br>When the internet was newly invented, websites had significantly
        less functionality than web apps. They were only capable of delivering
