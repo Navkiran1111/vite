@@ -3,6 +3,7 @@ import { BiPlusMedical } from "react-icons/bi";
 import { FaMinus} from "react-icons/fa"
 import { MdMargin } from "react-icons/md";
 import  './Basic.css' 
+import { BiMinus } from "react-icons/bi";
 
 const UseState = ()=>{
    const [count, setCount]=useState(0)
@@ -31,8 +32,8 @@ const UseState = ()=>{
             </button>
             <h1>{count}</h1>
             <button onClick={() =>(count=== (0) ? setCount(0):setCount(count -1))}>
-                <FaMinus className="icon minus_icon" />
-
+            
+            <FaMinus />
         </button>
     </div>
     </>

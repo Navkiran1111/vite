@@ -4,3 +4,12 @@ h2{
 p{
     color: brown;
 }
+button{
+    width: 30px;
+    
+}
+h1{
+    color: blue;
+    margin: 5px 5px 5px;
+    padding: 5px 5px 5px;
+}
