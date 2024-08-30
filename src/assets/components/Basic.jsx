@@ -1,4 +1,6 @@
+
 import React,{useState} from"react";
+import { useEffect } from "react";
 import { BiPlusMedical } from "react-icons/bi";
 import { FaMinus} from "react-icons/fa"
 import { MdMargin } from "react-icons/md";
@@ -6,7 +8,11 @@ import  './Basic.css'
 import { BiMinus } from "react-icons/bi";
 
 const UseState = ()=>{
-   const [count, setCount]=useState(0)
+   const [count, setCount]=useState(0);
+
+   useEffect(()=> {
+    document.title= count;
+   });
     
     return<>
     <img src="hooks.png" />
