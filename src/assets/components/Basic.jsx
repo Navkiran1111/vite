@@ -30,7 +30,7 @@ const UseState = ()=>{
 <br></br>5.useMemo Hook
 <br></br>6.useContext Hook
 <br></br>7.useReducer Hook
-<br></br><br></br>Practical Example of useState Hook:
+<br></br><br></br>Practical Example of useState and useEffect  Hook:
     </div>
     <div className="container">   
        <button onClick={() =>setCount(count + 1)}>
